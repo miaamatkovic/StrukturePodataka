@@ -1,0 +1,4 @@
+﻿  zad2.c
+C:\Users\josko\Desktop\StrukturePodataka\lab2\lab2\lab2\zad2.c(204,7): warning C4013: 'tolower' undefined; assuming extern returning int
+C:\Users\josko\Desktop\StrukturePodataka\lab2\lab2\lab2\zad2.c(130): warning C4172: returning address of local variable or temporary: surname
+  lab2.vcxproj -> C:\Users\josko\Desktop\StrukturePodataka\lab2\lab2\x64\Debug\lab2.exe
