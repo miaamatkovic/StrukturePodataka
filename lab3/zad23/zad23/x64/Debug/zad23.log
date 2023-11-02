@@ -1,0 +1,4 @@
+﻿  zad2-3.c
+C:\Users\josko\Desktop\StrukturePodataka\lab3\zad23\zad23\zad2-3.c(215,7): warning C4013: 'tolower' undefined; assuming extern returning int
+C:\Users\josko\Desktop\StrukturePodataka\lab3\zad23\zad23\zad2-3.c(141): warning C4172: returning address of local variable or temporary: surname
+  zad23.vcxproj -> C:\Users\josko\Desktop\StrukturePodataka\lab3\zad23\x64\Debug\zad23.exe
