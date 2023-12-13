@@ -15,6 +15,7 @@ typedef struct _dir {
     char name[MAX_NAME_LENGTH];
     PositionDir nextDir;
     PositionDir subDir;
+    PositionDir parentDir;
 } Dir;
 
 typedef struct _levelStack* PositionStack;
@@ -157,6 +158,18 @@ int printDirCont(PositionDir currentDir) {
     return EXIT_SUCCESS;
 }
 PositionDir changeDir(PositionDir currentDir, char* wantedDir) {
+    if (!currentDir || !wantedDir) {
+        printf("\nError!\n");
+        return NULL;
+    }
+    if (strcmp(wantedDir, "..") == 0) {
+        if (currentDir->parentDir)
+            return currentDir->parentDir;
+        else {
+            printf("\nError: Already in root directory!\n");
+            return NULL;
+        }
+    }
     PositionDir currentSubDir = currentDir->subDir;
 
     while (currentSubDir != NULL && strcmp(currentSubDir->name, wantedDir) != 0)
@@ -165,9 +178,16 @@ PositionDir changeDir(PositionDir currentDir, char* wantedDir) {
     return currentSubDir;
 }
 int push(PositionStack stackTop, PositionDir LevelDir) {
-    PositionStack newStack = NULL;
-
-    newStack = malloc(sizeof(LevelStack));
+    //PositionStack newStack = NULL;
+    if (!stackTop) {
+        printf("\nError!\n");
+        return EXIT_FAILURE;
+    }
+    PositionStack newStack = malloc(sizeof(LevelStack));
+    if (!newStack) {
+        printf("\nMemory allocation failed!\n");
+        return EXIT_FAILURE;
+    }
 
     newStack->directoryLevel = LevelDir;
 
