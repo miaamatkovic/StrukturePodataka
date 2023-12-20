@@ -129,6 +129,11 @@
   <ItemGroup>
     <ClCompile Include="zad6.c" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="racun1.txt" />
+    <Text Include="racun2.txt" />
+    <Text Include="racuni.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -1,0 +1,22 @@
+﻿  zad8.c
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(34,3): warning C4129: 'M': unrecognized character escape sequence
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(82,31): warning C4047: 'function': 'TreeP' differs in levels of indirection from 'int'
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(82,24): warning C4024: 'Insert': different types for formal and actual parameter 2
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(104,22): warning C4020: 'Find': too many actual parameters
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(106,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'TreeP'
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(106,12): warning C4313: 'printf': '%d' in format string conflicts with argument 2 of type 'TreeP'
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(126,26): warning C4047: 'return': 'ArrayP' differs in levels of indirection from 'int'
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(132,16): warning C4028: formal parameter 1 different from declaration
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(132,26): warning C4028: formal parameter 2 different from declaration
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(155,17): warning C4133: 'return': incompatible types - from 'ArrayP' to 'TreeP'
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(151,1): warning C4133: 'initializing': incompatible types - from 'TreeP' to 'ArrayP'
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(162,26): warning C4047: 'return': 'TreeP' differs in levels of indirection from 'int'
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(169,27): warning C4028: formal parameter 2 different from declaration
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(191,14): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(203,14): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(215,14): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(274,33): warning C4029: declared formal parameter list different from definition
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(130): warning C4715: 'AllocateMemmoryForArray': not all control paths return a value
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(167): warning C4715: 'AllocateMemmoryForTree': not all control paths return a value
+C:\Users\josko\Desktop\StrukturePodataka\lab 8\lab 8\zad8.c(138): warning C4716: 'Push': must return a value
+  lab 8.vcxproj -> C:\Users\josko\Desktop\StrukturePodataka\lab 8\x64\Debug\lab 8.exe
