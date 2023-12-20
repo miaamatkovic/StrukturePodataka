@@ -1,4 +1,0 @@
-﻿  zad6.c
-C:\Users\josko\Desktop\StrukturePodataka\lab7\lab6\lab6\zad6.c(94,22): warning C4047: 'return': 'receiptPosition' differs in levels of indirection from 'int'
-C:\Users\josko\Desktop\StrukturePodataka\lab7\lab6\lab6\zad6.c(120,22): warning C4047: 'return': 'articlePosition' differs in levels of indirection from 'int'
-  lab6.vcxproj -> C:\Users\josko\Desktop\StrukturePodataka\lab7\lab6\x64\Debug\lab6.exe
