@@ -1,0 +1,6 @@
+﻿  zad10.c
+C:\Users\josko\Desktop\StrukturePodataka\lab10\lab10\zad10.c(227,23): warning C4047: 'return': 'CountryPosition' differs in levels of indirection from 'int'
+C:\Users\josko\Desktop\StrukturePodataka\lab10\lab10\zad10.c(154): warning C4716: 'printAllCountriesFromHash': must return a value
+C:\Users\josko\Desktop\StrukturePodataka\lab10\lab10\zad10.c(415): warning C4716: 'printCountryList': must return a value
+C:\Users\josko\Desktop\StrukturePodataka\lab10\lab10\zad10.c(437): warning C4716: 'printTownList': must return a value
+  lab10.vcxproj -> C:\Users\josko\Desktop\StrukturePodataka\lab10\lab10\x64\Debug\lab10.exe

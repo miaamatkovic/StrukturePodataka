@@ -1,0 +1,6 @@
+﻿  zad89.c
+C:\Users\josko\Desktop\StrukturePodataka\lab89\lab89\zad89.c(34,11): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\josko\Desktop\StrukturePodataka\lab89\lab89\zad89.c(87,17): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\josko\Desktop\StrukturePodataka\lab89\lab89\zad89.c(196,9): warning C4033: 'levelOrder' must return a value
+C:\Users\josko\Desktop\StrukturePodataka\lab89\lab89\zad89.c(215): warning C4715: 'levelOrder': not all control paths return a value
+  lab89.vcxproj -> C:\Users\josko\Desktop\StrukturePodataka\lab89\lab89\x64\Debug\lab89.exe
